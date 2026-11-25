@@ -1,11 +1,11 @@
 # Template for the formula in gabriel-kozma/homebrew-tap. The release job in
-# .github/workflows/ci.yml fills in https://github.com/gabriel-kozma/mac-agent-jail/archive/refs/tags/v0.2.0.tar.gz and 87ed9a10d0360236c61eb590661bb7bda195798b5c869fb7ffc89c5a9248dd34 for each v* tag and
+# .github/workflows/ci.yml fills in https://github.com/gabriel-kozma/mac-agent-jail/archive/refs/tags/v0.2.1.tar.gz and 3cd0622a56e0976aad28cc616ad55941c3463b030a6c7e6349732c5977d9c7e4 for each v* tag and
 # pushes the result to Formula/mac-agent-jail.rb in the tap.
 class MacAgentJail < Formula
   desc "Run AI coding agents in a macOS Seatbelt sandbox confined to the project"
   homepage "https://github.com/gabriel-kozma/mac-agent-jail"
-  url "https://github.com/gabriel-kozma/mac-agent-jail/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "87ed9a10d0360236c61eb590661bb7bda195798b5c869fb7ffc89c5a9248dd34"
+  url "https://github.com/gabriel-kozma/mac-agent-jail/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "3cd0622a56e0976aad28cc616ad55941c3463b030a6c7e6349732c5977d9c7e4"
   license "GPL-3.0-only"
   head "https://github.com/gabriel-kozma/mac-agent-jail.git", branch: "master"
 
